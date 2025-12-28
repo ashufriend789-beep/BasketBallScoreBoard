@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BasketBall ScoreBoard</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="box">
+                <h1 id="team-one">HOME</h1>
+                <div class="screen" id="team-one-score">0</div>
+                <div class="button">
+                    <button  onclick="one()">+1</button>
+                    <button  onclick="two()">+2</button>
+                    <button onclick="three()">+3</button>
+                </div>
+            </div>
+            <div class="box">
+                <h1 id="team-two">GUEST</h1>
+                <div class="screen" id="team-two-score">0</div>
+                <div class="button">
+                    <button  onclick="one1()">+1</button>
+                    <button  onclick="two2()">+2</button>
+                    <button onclick="three3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <button onclick="reset()">RESET SCOREBOARD</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
